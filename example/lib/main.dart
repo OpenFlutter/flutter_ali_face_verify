@@ -66,7 +66,7 @@ class _MyAppState extends State<MyApp> {
               MaterialButton(
                 onPressed: () async {
                   var result = await _flutterPluginTestPlugin.startService(
-                      certifyId: "dtfv_9aaa65a83bc049dcc02cfc937499e760",
+                      certifyId: "",
                       extParams: {
                         "url":
                             ""
